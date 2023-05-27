@@ -13,7 +13,7 @@ The lap timer was implemented to measure accurate lap timings to check the consi
 * Push Button
 ## Schematic Diagram 
 
-![Alt text](Fritzing%20LapTimer.png)
+![Alt text](/LTimerImages/FritzingLapTimer.png)
             
 
 ## Pin Description
@@ -36,6 +36,6 @@ To measure circular track timings, the laser is positioned to strike the LDR con
 
 To measure acceleration track timings, the laser and the main module are positioned at the finish line of the track. A secondary module with an Arduino Mega or another microcontroller interfaced with a second LoRa module is placed at the start line, with another laser striking another LDR on the opposite side of the track, just like the finish line module. When the vehicle passes through the laser at the start line, a symbol is sent via the LoRa module to the finish line module, triggering the timer. When the vehicle passes through the laser at the finish line, the time taken to cover the known distance is displayed on the 16X2 LCD.
 
-![Alt text](LTimer%20Flowchart.png)
+![Alt text](/LTimerImages/LTimerFlowchart.png)
             
             Lap Timer Transmitter and Receiver Flowchart
