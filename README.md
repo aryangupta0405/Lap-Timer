@@ -1,7 +1,7 @@
 # Lap Timer
 
 ## Introduction
-The lap timer was implemented to measure accurate lap timings to check the consistency of the driver. This was implemented using a laser, LDR(light-dependent resistor), 16x2 LCD, LoRa modules and Arduino Nano. The lap timer can be used to find lap timings for a circular track as well as for a straight-line acceleration test. The straight-line version makes use of LoRa modules for wireless communication between the start and finish of the test.
+The lap timer was implemented to measure accurate lap timings for a Formula student vehicle  to check the consistency of the driver. This was implemented using a laser, LDR(light-dependent resistor), 16x2 LCD, LoRa modules and Arduino Nano. The lap timer can be used to find lap timings for a circular track as well as for a straight-line acceleration test. The straight-line version makes use of LoRa modules for wireless communication between the start and finish of the test.
 
 ## Components Used
 * Arduino Nano
